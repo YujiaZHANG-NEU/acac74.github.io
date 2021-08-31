@@ -1,0 +1,153 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="Markdown学习笔记"><meta name="keywords" content=""><meta name="author" content="梦无了痕"><meta name="copyright" content="梦无了痕"><title>Markdown学习笔记 | kryo的blog</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.9.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.9.0"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  hexoVersion: '5.4.0'
+} </script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="kryo的blog" type="application/atom+xml">
+</head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Markdown%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">Markdown的使用方法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Markdown%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.</span> <span class="toc-text">1.Markdown是什么</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Markdown%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"><span class="toc-number">1.2.</span> <span class="toc-text">2.Markdown的基础语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%A0%87%E9%A2%98"><span class="toc-number">1.2.1.</span> <span class="toc-text">1) 标题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%EF%BC%89%E5%AD%97%E4%BD%93"><span class="toc-number">1.2.2.</span> <span class="toc-text">2）字体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%EF%BC%89%E5%BC%95%E7%94%A8"><span class="toc-number">1.2.3.</span> <span class="toc-text">3）引用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E5%88%86%E5%89%B2%E7%BA%BF"><span class="toc-number">1.2.4.</span> <span class="toc-text">4) 分割线</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E5%9B%BE%E7%89%87"><span class="toc-number">1.2.5.</span> <span class="toc-text">5)  图片</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E4%BB%A3%E7%A0%81-amp-%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-number">1.2.6.</span> <span class="toc-text">6)  代码&amp;代码块</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#a-%E4%BB%A3%E7%A0%81%EF%BC%9A"><span class="toc-number">1.2.6.1.</span> <span class="toc-text">a. 代码：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#b-%E4%BB%A3%E7%A0%81%E5%9D%97%EF%BC%9A"><span class="toc-number">1.2.6.2.</span> <span class="toc-text">b. 代码块：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7%EF%BC%89%E8%A1%A8%E6%A0%BC"><span class="toc-number">1.2.7.</span> <span class="toc-text">7）表格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8%EF%BC%89%E6%8D%A2%E8%A1%8C"><span class="toc-number">1.2.8.</span> <span class="toc-text">8）换行</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Markdown%E7%9A%84%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7"><span class="toc-number">1.3.</span> <span class="toc-text">3.Markdown的实用技巧</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Markdown%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95%E7%9A%84%E6%8F%92%E4%BB%B6%EF%BC%88%E5%9F%BA%E4%BA%8EVS-Code%EF%BC%89"><span class="toc-number">1.3.1.</span> <span class="toc-text">1)  Markdown自动生成目录的插件（基于VS Code）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%EF%BC%89Markdown%E4%B8%AD%E6%94%B9%E5%8F%98%E5%AD%97%E4%BD%93%E9%A2%9C%E8%89%B2"><span class="toc-number">1.3.2.</span> <span class="toc-text">2）Markdown中改变字体颜色</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%EF%BC%89Markdown%E8%AE%BE%E7%BD%AE%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F"><span class="toc-number">1.3.3.</span> <span class="toc-text">3）Markdown设置字体大小</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4%EF%BC%89Markdown%E4%B8%AD%E6%8F%92%E5%85%A5%E8%B6%85%E9%93%BE%E6%8E%A5"><span class="toc-number">1.3.4.</span> <span class="toc-text">4）Markdown中插入超链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-Markdown%E4%B8%AD%E7%9A%84yaml-front-matter"><span class="toc-number">1.3.5.</span> <span class="toc-text">5) Markdown中的yaml front matter</span></a></li></ol></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://himg.bdimg.com/sys/portrait/item/pp.1.f2059c1d.Xwr9nE7AyL3ZhO-NSy_YLA?_t=1628778491608"></div><div class="author-info__name text-center">梦无了痕</div><div class="author-info__description text-center"></div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/acac74">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">2</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">2</span></a></div><hr><div class="author-info-links"><div class="author-info-links__title text-center">快速访问</div><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://github.com/">Github</a><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://www.bilibili.com/">Bilibili</a><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://www.csdn.net/?spm=1000.2115.3001.4476">CSDN</a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(http://qqpublic.qpic.cn/qq_public/0/0-2556081110-B9F3F0F83B548F1B4654D35384B8B277/0?fmt=jpg&amp;size=379&amp;h=506&amp;w=900&amp;ppv=1/0)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">kryo的blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span><span class="pull-right"></span></div><div id="post-info"><div id="post-title">Markdown学习笔记</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2021-08-31</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h1 id="Markdown的使用方法"><a href="#Markdown的使用方法" class="headerlink" title="Markdown的使用方法"></a>Markdown的使用方法</h1><ul>
+<li><a href="#markdown%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95">Markdown的使用方法</a><ul>
+<li><a href="#1markdown%E6%98%AF%E4%BB%80%E4%B9%88">1.Markdown是什么</a></li>
+<li><a href="#2markdown%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95">2.Markdown的基础语法</a><ul>
+<li><a href="#1-%E6%A0%87%E9%A2%98">1) 标题</a></li>
+<li><a href="#2%E5%AD%97%E4%BD%93">2）字体</a></li>
+<li><a href="#3%E5%BC%95%E7%94%A8">3）引用</a></li>
+<li><a href="#4-%E5%88%86%E5%89%B2%E7%BA%BF">4) 分割线</a></li>
+<li><a href="#5--%E5%9B%BE%E7%89%87">5)  图片</a></li>
+<li><a href="#6--%E4%BB%A3%E7%A0%81%E4%BB%A3%E7%A0%81%E5%9D%97">6)  代码&amp;代码块</a><ul>
+<li><a href="#a-%E4%BB%A3%E7%A0%81">a. 代码：</a></li>
+<li><a href="#b-%E4%BB%A3%E7%A0%81%E5%9D%97">b. 代码块：</a></li>
+</ul>
+</li>
+<li><a href="#7%E8%A1%A8%E6%A0%BC">7）表格</a></li>
+<li><a href="#8%E6%8D%A2%E8%A1%8C">8）换行</a></li>
+</ul>
+</li>
+<li><a href="#3markdown%E7%9A%84%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7">3.Markdown的实用技巧</a><ul>
+<li><a href="#1--markdown%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95%E7%9A%84%E6%8F%92%E4%BB%B6%E5%9F%BA%E4%BA%8Evs-code">1)  Markdown自动生成目录的插件（基于VS Code）</a></li>
+<li><a href="#2markdown%E4%B8%AD%E6%94%B9%E5%8F%98%E5%AD%97%E4%BD%93%E9%A2%9C%E8%89%B2">2）Markdown中改变字体颜色</a></li>
+<li><a href="#3markdown%E8%AE%BE%E7%BD%AE%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F">3）Markdown设置字体大小</a></li>
+<li><a href="#4markdown%E4%B8%AD%E6%8F%92%E5%85%A5%E8%B6%85%E9%93%BE%E6%8E%A5">4）Markdown中插入超链接</a></li>
+<li><a href="#5-markdown%E4%B8%AD%E7%9A%84yaml-front-matter">5) Markdown中的yaml front matter</a><h2 id="1-Markdown是什么"><a href="#1-Markdown是什么" class="headerlink" title="1.Markdown是什么"></a>1.Markdown是什么</h2></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>轻量级标记语言</p>
+<p>使用易读易写的纯文本格式编写文档</p>
+<p>转换成有效的 XHTML（或者HTML ） 文档。</p>
+<p>轻量化、易读易写特性</p>
+<p>对于图片，图表、数学式都有支持</p>
+<p>许多网站使用Markdown， 如GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、简书、CSDN等</p>
+<p>文件后缀名.md、 .markdown</p>
+<p>用于编写说明文档，以“README.md”的文件名保存在软件的目录下面。</p>
+<p>Markdown可以快速转化为PPT、Word等</p>
+<h2 id="2-Markdown的基础语法"><a href="#2-Markdown的基础语法" class="headerlink" title="2.Markdown的基础语法"></a>2.Markdown的基础语法</h2><h3 id="1-标题"><a href="#1-标题" class="headerlink" title="1) 标题"></a>1) 标题</h3><p>在Markdown中标题由#来做标识，分有五级标题。</p>
+<p><strong>语法：</strong></p>
+<p>在文本前加#即可，加的数量对应标题等级</p>
+<p><strong>语法实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">#这个是一级标题</span><br><span class="line"></span><br><span class="line">##这个是二级标题</span><br><span class="line"></span><br><span class="line">###这个是三级标题</span><br><span class="line"></span><br><span class="line">####这个是四级标题</span><br><span class="line"></span><br><span class="line">#####这个是五级标题</span><br></pre></td></tr></table></figure>
+
+<h3 id="2）字体"><a href="#2）字体" class="headerlink" title="2）字体"></a>2）字体</h3><p>字体共有主要四种：加粗，斜体，斜体加粗，删除线。</p>
+<p>效果演示：<strong>加粗</strong>    <em>斜体</em>    <em><strong>斜体加粗</strong></em>     <del>删除线</del></p>
+<p><strong>语法：</strong></p>
+<p>要加粗的文字左右分别用两个 * 号包起来 </p>
+<p>要倾斜的文字左右分别用一个 * 号包起来</p>
+<p>要倾斜和加粗的文字左右分别用三个 * 号包起来</p>
+<p>要加删除线的文字左右分别用两个 ~~ 号包起来</p>
+<p><strong>语法实例</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#96;**加粗**&#96;</span><br><span class="line">&#96;*倾斜*&#96;</span><br><span class="line">&#96;***斜体加粗***&#96;</span><br><span class="line">&#96;~~删除线~~&#96;</span><br></pre></td></tr></table></figure>
+
+<h3 id="3）引用"><a href="#3）引用" class="headerlink" title="3）引用"></a>3）引用</h3><blockquote>
+<p>效果演示：这是引用</p>
+</blockquote>
+<p><strong>语法：</strong></p>
+<p>在所需文本前加入&gt;符号即可</p>
+<p><strong>语法实例</strong></p>
+<p><code>&gt;引用</code></p>
+<h3 id="4-分割线"><a href="#4-分割线" class="headerlink" title="4) 分割线"></a>4) 分割线</h3><p>效果演示：</p>
+<hr>
+<hr>
+<p><strong>语法：</strong>用三个-或者三个*都可以创建分割线</p>
+<p><strong>语法实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-图片"><a href="#5-图片" class="headerlink" title="5)  图片"></a>5)  图片</h3><p>Markdown中的图片是一个令人头疼的问题，它的操作比较麻烦。在Markdown中，图片的加入需要通过url的方式加入。这样的方式意味着，如果在本地插入，当该Markdown在其他机器上打开时将无法显示图片。所以当我们想加入图片时，可以将图片打包发到云端，如GitHub等平台的仓库中，这样才能保证图片的正常打开。</p>
+<p>语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[超链接名](超链接地址 &quot;超链接title&quot;)</span><br><span class="line">title可加可不加</span><br></pre></td></tr></table></figure>
+
+<h3 id="6-代码-amp-代码块"><a href="#6-代码-amp-代码块" class="headerlink" title="6)  代码&amp;代码块"></a>6)  代码&amp;代码块</h3><h4 id="a-代码："><a href="#a-代码：" class="headerlink" title="a. 代码："></a>a. 代码：</h4><p>想要将一句话中的一部分转换为代码，可以用两个`将所需要转化为代码的部分包括起来。</p>
+<h4 id="b-代码块："><a href="#b-代码块：" class="headerlink" title="b. 代码块："></a>b. 代码块：</h4><p>开头用```为标识，结尾同样以其作为结尾。</p>
+<h3 id="7）表格"><a href="#7）表格" class="headerlink" title="7）表格"></a>7）表格</h3><p><strong>语法：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">head|head|head</span><br><span class="line">---|:--:|---:</span><br><span class="line">content|content|content</span><br><span class="line">content|content|content</span><br><span class="line">content|content|content</span><br><span class="line">注：</span><br><span class="line">---|:--:|---:   表示居中</span><br><span class="line">--|:--:|--:     表示左对齐</span><br><span class="line">--|:--:|---:    表示右对齐</span><br></pre></td></tr></table></figure>
+
+<p><strong>效果演示：</strong></p>
+<table>
+<thead>
+<tr>
+<th>head</th>
+<th align="center">head</th>
+<th align="right">head</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>content</td>
+<td align="center">content</td>
+<td align="right">content</td>
+</tr>
+<tr>
+<td>content</td>
+<td align="center">content</td>
+<td align="right">content</td>
+</tr>
+<tr>
+<td>content</td>
+<td align="center">content</td>
+<td align="right">content</td>
+</tr>
+</tbody></table>
+<h3 id="8）换行"><a href="#8）换行" class="headerlink" title="8）换行"></a>8）换行</h3><p><strong>语法：</strong><code>&lt;br&gt;</code></p>
+<h2 id="3-Markdown的实用技巧"><a href="#3-Markdown的实用技巧" class="headerlink" title="3.Markdown的实用技巧"></a>3.Markdown的实用技巧</h2><h3 id="1-Markdown自动生成目录的插件（基于VS-Code）"><a href="#1-Markdown自动生成目录的插件（基于VS-Code）" class="headerlink" title="1)  Markdown自动生成目录的插件（基于VS Code）"></a>1)  Markdown自动生成目录的插件（基于VS Code）</h3><p>Markdown手动制作目录较为麻烦，但是好在许多插件提供了自动生成的功能，这样我们就可以愉快地写文章啦！</p>
+<p><strong>基于VS Code</strong>（步骤）</p>
+<p>1.我们需要在VS Code中下载Markdown All in One插件。</p>
+<p>2.安装好插件后，在编辑的 md 文档中，将鼠标光标放到要生成目录的位置，右键打开「<code>命令面板</code>」，搜索“toc”，选中「<code>创建目录</code>」，即可自动生成目录。</p>
+<p>（如果不想让某个标题出现在目录中，可以在该标题后面加上 <code>&lt;!-- omit in toc --&gt;</code>，表示自动生成目录时忽略该标题。<strong>另外</strong>，可以在设置中自定义一些属性，比如：设定只有 2~6 级标题才出现在目录中、使用纯文本目录等）</p>
+<h3 id="2）Markdown中改变字体颜色"><a href="#2）Markdown中改变字体颜色" class="headerlink" title="2）Markdown中改变字体颜色"></a>2）Markdown中改变字体颜色</h3><p>在写博文或者学习笔记时我们常常需要使用其他颜色的字体，以突出强调。Markdown提供了改变字体颜色的功能。</p>
+<p><strong>语法：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;font color&#x3D;red&gt;红色&lt;&#x2F;font&gt;</span><br><span class="line">&lt;font color&#x3D;blue&gt;蓝色&lt;&#x2F;font&gt;</span><br><span class="line">&lt;font color&#x3D;yellow&gt;黄色&lt;&#x2F;font&gt;</span><br><span class="line">&lt;font color&#x3D;green&gt;绿色&lt;&#x2F;font&gt;</span><br><span class="line">&lt;font color&#x3D;purple&gt;紫色&lt;&#x2F;font&gt;</span><br></pre></td></tr></table></figure>
+
+<p>我们可以改变成自己需要的颜色</p>
+<p><strong>效果演示：</strong></p>
+<p><font color=red>红色</font><br><font color=blue>蓝色</font><br><font color=yellow>黄色</font><br><font color=green>绿色</font><br><font color=purple>紫色</font></p>
+<h3 id="3）Markdown设置字体大小"><a href="#3）Markdown设置字体大小" class="headerlink" title="3）Markdown设置字体大小"></a>3）Markdown设置字体大小</h3><p><strong>语法：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;font size&#x3D;3 color&#x3D;red&gt;字体3&lt;&#x2F;font&gt;</span><br><span class="line">&lt;font size&#x3D;4 color&#x3D;red&gt;字体4&lt;&#x2F;font&gt;</span><br><span class="line">&lt;font size&#x3D;5 color&#x3D;red&gt;字体5&lt;&#x2F;font&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>实际演示：</strong></p>
+<p><font size=3 color=red>字体3</font><br><font size=4 color=red>字体4</font><br><font size=5 color=red>字体5</font></p>
+<h3 id="4）Markdown中插入超链接"><a href="#4）Markdown中插入超链接" class="headerlink" title="4）Markdown中插入超链接"></a>4）Markdown中插入超链接</h3><p><strong>语法：</strong><code>[链接文字](链接网址)</code></p>
+<p><strong>举例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[百度](https:&#x2F;&#x2F;www.baidu.com)</span><br><span class="line">[bilibili](https:&#x2F;&#x2F;www.bilibili.com)</span><br><span class="line">[张昱佳的个人博客](https:&#x2F;&#x2F;acac74.github.io)</span><br></pre></td></tr></table></figure>
+
+<p><strong>实际演示：</strong></p>
+<p><a target="_blank" rel="noopener" href="https://www.baidu.com/">百度</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/">bilibili</a></p>
+<p><a target="_blank" rel="noopener" href="https://acac74.github.io/">张昱佳的个人博客</a></p>
+<h3 id="5-Markdown中的yaml-front-matter"><a href="#5-Markdown中的yaml-front-matter" class="headerlink" title="5) Markdown中的yaml front matter"></a>5) Markdown中的yaml front matter</h3><p>YAML：YAML ain’t markup language，是一种递归缩写，是一个可读性高并且容易被人类阅读，容易和脚本语言交互，用来表达资料序列的编程语言。</p>
+<p>一般在我们写完博文后，可能将自己的博文推送至个人博客。在博客里我们常常需要将文章分类，此时，就需要我们的<strong>yaml front matter</strong> 。可以将它理解成一种标签可以包含tags, title, catagories, date等。</p>
+<p>下面是一个yaml font matter的例子</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">title: 文章的front-matter规则 &#x2F;&#x2F; 你的博客名字</span><br><span class="line">date: 2019-08-10 21:44:44 &#x2F;&#x2F;文章创建的日期</span><br><span class="line">author: longlongqin &#x2F;&#x2F;作者名字</span><br><span class="line">img: &#x2F;medias&#x2F;banner&#x2F;6.jpg &#x2F;&#x2F;文章的显示的时候的背景</span><br><span class="line">coverImg: &#x2F;medias&#x2F;banner&#x2F;6.jpg</span><br><span class="line">top: true</span><br><span class="line">cover: true</span><br><span class="line">toc: true</span><br><span class="line">password:</span><br><span class="line">mathjax: true</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">梦无了痕</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2021/08/31/Markdown的使用方法/">http://example.com/2021/08/31/Markdown的使用方法/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com">kryo的blog</a>！</span></div></div><div class="post-meta__tag-list"></div><nav id="pagination"><div class="next-post pull-right"><a href="/2021/08/06/SQL%20%E8%AF%AD%E6%B3%95/"><span>SQL语法</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer class="footer-bg" style="background-image: url(http://qqpublic.qpic.cn/qq_public/0/0-2556081110-B9F3F0F83B548F1B4654D35384B8B277/0?fmt=jpg&amp;size=379&amp;h=506&amp;w=900&amp;ppv=1/0)"><div class="layout" id="footer"><div class="copyright">&copy;2013 - 2021 By 梦无了痕</div><div class="framework-info"><span>驱动 - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.0"></script><script src="/js/fancybox.js?version=1.9.0"></script><script src="/js/sidebar.js?version=1.9.0"></script><script src="/js/copy.js?version=1.9.0"></script><script src="/js/fireworks.js?version=1.9.0"></script><script src="/js/transition.js?version=1.9.0"></script><script src="/js/scroll.js?version=1.9.0"></script><script src="/js/head.js?version=1.9.0"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html>
