@@ -3,11 +3,11 @@
   <title>kryo的blog</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://acac74.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://acac74.github.io/"/>
   <updated>2021-09-11T11:31:20.478Z</updated>
-  <id>http://example.com/</id>
+  <id>https://acac74.github.io/</id>
   
   <author>
     <name>梦无了痕</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>计算机网络 - 传输层</title>
-    <link href="http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E4%BC%A0%E8%BE%93%E5%B1%82/"/>
-    <id>http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E4%BC%A0%E8%BE%93%E5%B1%82/</id>
+    <link href="https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E4%BC%A0%E8%BE%93%E5%B1%82/"/>
+    <id>https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E4%BC%A0%E8%BE%93%E5%B1%82/</id>
     <published>2021-09-11T06:51:58.000Z</published>
     <updated>2021-09-11T11:31:20.478Z</updated>
     
@@ -35,15 +35,15 @@
     
     
     
-    <category term="计算机网络" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机网络" scheme="https://acac74.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
   </entry>
   
   <entry>
     <title>计算机网络 - 应用层</title>
-    <link href="http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E5%BA%94%E7%94%A8%E5%B1%82/"/>
-    <id>http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E5%BA%94%E7%94%A8%E5%B1%82/</id>
+    <link href="https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E5%BA%94%E7%94%A8%E5%B1%82/"/>
+    <id>https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E5%BA%94%E7%94%A8%E5%B1%82/</id>
     <published>2021-09-11T06:51:58.000Z</published>
     <updated>2021-09-11T11:34:34.476Z</updated>
     
@@ -59,15 +59,15 @@
     
     
     
-    <category term="计算机网络" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机网络" scheme="https://acac74.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
   </entry>
   
   <entry>
     <title>计算机网络 - 概述</title>
-    <link href="http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E6%A6%82%E8%BF%B0/"/>
-    <id>http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E6%A6%82%E8%BF%B0/</id>
+    <link href="https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E6%A6%82%E8%BF%B0/"/>
+    <id>https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E6%A6%82%E8%BF%B0/</id>
     <published>2021-09-11T06:51:58.000Z</published>
     <updated>2021-09-11T11:31:39.959Z</updated>
     
@@ -83,15 +83,15 @@
     
     
     
-    <category term="计算机网络" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机网络" scheme="https://acac74.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
   </entry>
   
   <entry>
     <title>计算机网络 - 物理层</title>
-    <link href="http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E7%89%A9%E7%90%86%E5%B1%82/"/>
-    <id>http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E7%89%A9%E7%90%86%E5%B1%82/</id>
+    <link href="https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E7%89%A9%E7%90%86%E5%B1%82/"/>
+    <id>https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E7%89%A9%E7%90%86%E5%B1%82/</id>
     <published>2021-09-11T06:51:58.000Z</published>
     <updated>2021-09-11T11:34:15.953Z</updated>
     
@@ -107,15 +107,15 @@
     
     
     
-    <category term="计算机网络" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机网络" scheme="https://acac74.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
   </entry>
   
   <entry>
     <title>计算机网络 - 网络层</title>
-    <link href="http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E7%BD%91%E7%BB%9C%E5%B1%82/"/>
-    <id>http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E7%BD%91%E7%BB%9C%E5%B1%82/</id>
+    <link href="https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E7%BD%91%E7%BB%9C%E5%B1%82/"/>
+    <id>https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E7%BD%91%E7%BB%9C%E5%B1%82/</id>
     <published>2021-09-11T06:51:58.000Z</published>
     <updated>2021-09-11T11:33:08.255Z</updated>
     
@@ -131,15 +131,15 @@
     
     
     
-    <category term="计算机网络" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机网络" scheme="https://acac74.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
   </entry>
   
   <entry>
     <title>计算机网络 - 链路层</title>
-    <link href="http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E9%93%BE%E8%B7%AF%E5%B1%82/"/>
-    <id>http://example.com/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E9%93%BE%E8%B7%AF%E5%B1%82/</id>
+    <link href="https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E9%93%BE%E8%B7%AF%E5%B1%82/"/>
+    <id>https://acac74.github.io/2021/09/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E9%93%BE%E8%B7%AF%E5%B1%82/</id>
     <published>2021-09-11T06:51:58.000Z</published>
     <updated>2021-09-11T11:32:09.012Z</updated>
     
@@ -155,15 +155,15 @@
     
     
     
-    <category term="计算机网络" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机网络" scheme="https://acac74.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
   </entry>
   
   <entry>
     <title>Markdown学习笔记</title>
-    <link href="http://example.com/2021/08/31/Markdown%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
-    <id>http://example.com/2021/08/31/Markdown%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</id>
+    <link href="https://acac74.github.io/2021/08/31/Markdown%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>https://acac74.github.io/2021/08/31/Markdown%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</id>
     <published>2021-08-31T02:51:58.000Z</published>
     <updated>2021-08-31T12:13:48.519Z</updated>
     
@@ -178,15 +178,15 @@
     
     
     
-    <category term="笔记" scheme="http://example.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://acac74.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>HTTP</title>
-    <link href="http://example.com/2021/08/20/HTTP/"/>
-    <id>http://example.com/2021/08/20/HTTP/</id>
+    <link href="https://acac74.github.io/2021/08/20/HTTP/"/>
+    <id>https://acac74.github.io/2021/08/20/HTTP/</id>
     <published>2021-08-20T06:51:58.000Z</published>
     <updated>2021-08-31T12:38:33.259Z</updated>
     
@@ -203,15 +203,15 @@
     
     
     
-    <category term="计算机网络" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机网络" scheme="https://acac74.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
   </entry>
   
   <entry>
     <title>Git的使用</title>
-    <link href="http://example.com/2021/08/11/Git%E7%9A%84%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8/"/>
-    <id>http://example.com/2021/08/11/Git%E7%9A%84%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8/</id>
+    <link href="https://acac74.github.io/2021/08/11/Git%E7%9A%84%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8/"/>
+    <id>https://acac74.github.io/2021/08/11/Git%E7%9A%84%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8/</id>
     <published>2021-08-11T11:51:58.000Z</published>
     <updated>2021-09-02T02:03:43.955Z</updated>
     
@@ -225,15 +225,15 @@
     
     
     
-    <category term="笔记" scheme="http://example.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://acac74.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>SQL语法</title>
-    <link href="http://example.com/2021/08/06/SQL%20%E8%AF%AD%E6%B3%95/"/>
-    <id>http://example.com/2021/08/06/SQL%20%E8%AF%AD%E6%B3%95/</id>
+    <link href="https://acac74.github.io/2021/08/06/SQL%20%E8%AF%AD%E6%B3%95/"/>
+    <id>https://acac74.github.io/2021/08/06/SQL%20%E8%AF%AD%E6%B3%95/</id>
     <published>2021-08-06T02:51:58.000Z</published>
     <updated>2021-08-21T17:42:41.021Z</updated>
     
@@ -249,7 +249,7 @@
     
     
     
-    <category term="数据库" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="数据库" scheme="https://acac74.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
   </entry>
